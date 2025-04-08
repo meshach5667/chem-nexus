@@ -41,7 +41,15 @@ const chemistryApi = {
 
       // Get property data
       const propsResponse = await fetch(`${BASE_URL}/compound/cid/${cid}/property/MolecularFormula,MolecularWeight,InChI,InChIKey,CanonicalSMILES,IUPACName/JSON`);
-      let properties = {};
+      interface PropertyData {
+        MolecularFormula?: string;
+        MolecularWeight?: number;
+        InChI?: string;
+        InChIKey?: string;
+        CanonicalSMILES?: string;
+        IUPACName?: string;
+      }
+      let properties: PropertyData = {};
       if (propsResponse.ok) {
         const propsData = await propsResponse.json();
         properties = propsData.PropertyTable.Properties[0] || {};
