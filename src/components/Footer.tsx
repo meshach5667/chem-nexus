@@ -60,13 +60,13 @@ const Footer = () => {
           <div className="space-y-2">
             <h3 className="text-sm font-medium">Connect</h3>
             <div className="flex gap-4">
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+              <a href="https://github.com/meshach5667/chem-nexus" className="text-muted-foreground hover:text-primary transition-colors">
                 <Github size={20} />
                 <span className="sr-only">GitHub</span>
               </a>
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+              <a href="https://x.com/MeshachZakumi" className="text-muted-foreground hover:text-primary transition-colors">
                 <Twitter size={20} />
-                <span className="sr-only">Twitter</span>
+                <span className="sr-only">X</span>
               </a>
             </div>
           </div>
