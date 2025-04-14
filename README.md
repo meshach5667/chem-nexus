@@ -50,7 +50,7 @@ View 2D structural representations of molecules with our integrated molecule vie
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/chem-nexus.git
+git clone https://github.com/meshach5667/chem-nexus.git
 
 # Navigate to the project directory
 cd chem-nexus
