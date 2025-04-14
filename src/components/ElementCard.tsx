@@ -8,9 +8,10 @@ interface ElementCardProps {
   element: Element;
   className?: string;
   expanded?: boolean;
+  onClick?: () => void;
 }
 
-const ElementCard: React.FC<ElementCardProps> = ({ element, className, expanded = false }) => {
+const ElementCard: React.FC<ElementCardProps> = ({ element, className, expanded = false, onClick }) => {
   const categoryColor = getCategoryColorClass(element.category);
   
   if (!expanded) {
@@ -22,6 +23,7 @@ const ElementCard: React.FC<ElementCardProps> = ({ element, className, expanded 
           categoryColor,
           className
         )}
+        onClick={onClick}
       >
         <div className="element-number">{element.number}</div>
         <div className="element-symbol">{element.symbol}</div>

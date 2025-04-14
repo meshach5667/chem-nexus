@@ -30,6 +30,15 @@ export interface CompoundData {
   image_url?: string;
 }
 
+interface PropertyData {
+  MolecularFormula?: string;
+  MolecularWeight?: number;
+  InChI?: string;
+  InChIKey?: string;
+  CanonicalSMILES?: string;
+  IUPACName?: string;
+}
+
 const chemistryApi = {
   // Get compound data by CID (PubChem Compound ID)
   async getCompoundByCID(cid: number): Promise<CompoundData> {
@@ -41,14 +50,6 @@ const chemistryApi = {
 
       // Get property data
       const propsResponse = await fetch(`${BASE_URL}/compound/cid/${cid}/property/MolecularFormula,MolecularWeight,InChI,InChIKey,CanonicalSMILES,IUPACName/JSON`);
-      interface PropertyData {
-        MolecularFormula?: string;
-        MolecularWeight?: number;
-        InChI?: string;
-        InChIKey?: string;
-        CanonicalSMILES?: string;
-        IUPACName?: string;
-      }
       let properties: PropertyData = {};
       if (propsResponse.ok) {
         const propsData = await propsResponse.json();
