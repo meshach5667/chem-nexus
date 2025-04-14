@@ -1,73 +1,98 @@
-# Welcome to your Lovable project
 
-## Project info
+# ChemNexus Explorer
 
-**URL**: https://lovable.dev/projects/f228d7fe-800b-4016-a646-23bce239db24
+## About
 
-## How can I edit this code?
+ChemNexus Explorer is an interactive chemistry data platform that provides easy access to information about chemical elements, compounds, and pharmaceuticals. Using data from the PubChem API, this tool offers students, educators, researchers, and chemistry enthusiasts a visually engaging way to explore the world of chemistry.
 
-There are several ways of editing your application.
+![ChemNexus Explorer Screenshot](https://source.unsplash.com/1600x900/?chemistry,laboratory)
 
-**Use Lovable**
+## Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/f228d7fe-800b-4016-a646-23bce239db24) and start prompting.
+### 🧪 Interactive Periodic Table
+Browse all chemical elements with an intuitive, color-coded interface. Click on any element to reveal detailed information including atomic mass, electron configuration, and more.
 
-Changes made via Lovable will be committed automatically to this repo.
+### 🔍 Compound Search
+Search for chemical compounds by name and instantly view their molecular structures, formulas, and properties.
 
-**Use your preferred IDE**
+### 💊 Pharmaceutical Database
+Explore FDA-approved drugs and their chemical properties. Each entry includes molecular visualization and links to more detailed information.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 🧬 Molecular Visualization
+View 2D structural representations of molecules with our integrated molecule viewer.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Video Demo
 
-Follow these steps:
+[Click here to watch the video demo](https://example.com/chemnexus-demo)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## Why Use ChemNexus Explorer?
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+- **Educational Value**: Perfect for students learning chemistry concepts, with visual aids and comprehensive data.
+- **Research Tool**: Quick access to chemical data for researchers and professionals.
+- **User-Friendly Interface**: Intuitive design that makes complex chemical information accessible to all.
+- **Modern Technology**: Built with React, TypeScript, and Tailwind CSS for a responsive and performant experience.
+- **Open Source**: Free to use, modify, and contribute to.
 
-# Step 3: Install the necessary dependencies.
-npm i
+## Technical Architecture
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+- Frontend: React with TypeScript
+- Styling: Tailwind CSS with shadcn/ui components
+- Data Source: PubChem PUG REST API
+- State Management: React Query
+- Routing: React Router
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/chemnexus-explorer.git
+
+# Navigate to the project directory
+cd chemnexus-explorer
+
+# Install dependencies
+npm install
+# or
+yarn install
 ```
 
-**Edit a file directly in GitHub**
+### Running the Application
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```bash
+# Start the development server
+npm run dev
+# or
+yarn dev
+```
 
-**Use GitHub Codespaces**
+Open your browser and navigate to `http://localhost:8080` to see ChemNexus Explorer in action.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### Building for Production
 
-## What technologies are used for this project?
+```bash
+# Create an optimized production build
+npm run build
+# or
+yarn build
+```
 
-This project is built with:
+## Contributing
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-## How can I deploy this project?
+## License
 
-Simply open [Lovable](https://lovable.dev/projects/f228d7fe-800b-4016-a646-23bce239db24) and click on Share -> Publish.
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Can I connect a custom domain to my Lovable project?
+## Acknowledgements
 
-Yes it is!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+- Data provided by [PubChem](https://pubchem.ncbi.nlm.nih.gov/)
+- Icons from [Lucide Icons](https://lucide.dev/)
+- UI components from [shadcn/ui](https://ui.shadcn.com/)
