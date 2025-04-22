@@ -13,8 +13,12 @@ Browse all chemical elements with an intuitive, color-coded interface. Click on 
 ### 🔍 Compound Search
 Search for chemical compounds by name and instantly view their molecular structures, formulas, and properties.
 
-### 💊 Pharmaceutical Database
-Explore FDA-approved drugs and their chemical properties. Each entry includes molecular visualization and links to more detailed information.
+### Chemical Reaction
+Shows common chemical reactions with reactants and products
+Provides visual molecular structures for both reactants and products
+Includes detailed descriptions of reactions
+Allows users to search and explore different types of reactions
+Features an interactive card-based interface with detailed views
 
 ### 🧬 Molecular Visualization
 View 2D structural representations of molecules with our integrated molecule viewer.
