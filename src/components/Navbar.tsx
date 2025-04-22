@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
@@ -40,8 +39,8 @@ const Navbar = () => {
           <Link to="/compounds" className="text-foreground/80 hover:text-primary transition-colors">
             Compounds
           </Link>
-          <Link to="/drugs" className="text-foreground/80 hover:text-primary transition-colors">
-            Pharmaceuticals
+          <Link to="/reactions" className="text-foreground/80 hover:text-primary transition-colors">
+            Reactions
           </Link>
         </nav>
 
@@ -94,11 +93,11 @@ const Navbar = () => {
               Compounds
             </Link>
             <Link
-              to="/drugs"
+              to="/reactions"
               className="flex items-center gap-2 py-2 hover:text-primary"
               onClick={closeMenu}
             >
-              Pharmaceuticals
+              Reactions
             </Link>
             <div className="flex items-center gap-2 pt-2 border-t">
               <Button variant="outline" size="sm" className="w-full" onClick={closeMenu}>

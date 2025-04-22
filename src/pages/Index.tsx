@@ -1,9 +1,8 @@
-
 import React from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { AtomIcon, BeakerIcon, FlaskConical, Search } from "lucide-react";
+import { AtomIcon, BeakerIcon, FlaskConical, Search, TestTubes } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import SearchBar from "@/components/SearchBar";
@@ -104,20 +103,20 @@ const Index = () => {
               </Card>
               <Card>
                 <CardHeader className="space-y-1">
-                  <CardTitle className="text-2xl">Pharmaceuticals</CardTitle>
+                  <CardTitle className="text-2xl">Chemical Reactions</CardTitle>
                   <CardDescription>
-                    Drugs and medical compounds
+                    Interactive reaction explorer
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
                   <div className="flex justify-center mb-4">
-                    <BeakerIcon size={48} className="text-accent" />
+                    <TestTubes size={48} className="text-accent" />
                   </div>
                   <p className="mb-4 text-muted-foreground">
-                    Explore pharmaceutical compounds, their structures, and basic information about their applications.
+                    Explore chemical reactions with visual representations of reactants and products, plus detailed explanations.
                   </p>
                   <Button asChild variant="outline" className="w-full">
-                    <Link to="/drugs">Discover Drugs</Link>
+                    <Link to="/reactions">Explore Reactions</Link>
                   </Button>
                 </CardContent>
               </Card>
