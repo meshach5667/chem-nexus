@@ -211,10 +211,7 @@ const Reactions = () => {
       </Card>
     </div>
   </div>
-)}
-
-    
-      </main>
+)}     </main>
 
       <Footer />
     </div>

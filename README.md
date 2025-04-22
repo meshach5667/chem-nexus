@@ -2,7 +2,7 @@
 
 ## About
 
-ChemNexus Explorer is an interactive chemistry data platform that provides easy access to information about chemical elements, compounds, and pharmaceuticals. Using data from the PubChem API, this tool offers students, educators, researchers, and chemistry enthusiasts a visually engaging way to explore the world of chemistry.
+ChemNexus Explorer is an interactive chemistry data platform that provides easy access to information about chemical elements, compounds, and Chemical reactions. Using data from the PubChem API, this tool offers students, educators, researchers, and chemistry enthusiasts a visually engaging way to explore the world of chemistry.
 
 
 ## Features
@@ -25,7 +25,7 @@ View 2D structural representations of molecules with our integrated molecule vie
 
 ## Video Demo
 
-[Click here to watch the video demo]()
+[Click here to watch the video demo](https://youtu.be/ROk_c7R4_T4)
 
 ## Why Use ChemNexus Explorer?
 
